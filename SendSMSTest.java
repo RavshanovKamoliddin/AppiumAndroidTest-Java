@@ -30,6 +30,7 @@ public class SendSMSTest {
     @Test
     public void sen_sms_test() {
 
+        //send SMS
         driver.sendSMS("555-123-4567", "Hello Automation Testing");
     }
 
