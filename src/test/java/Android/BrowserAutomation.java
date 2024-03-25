@@ -22,7 +22,7 @@ public class BrowserAutomation {
         capabilities.setCapability("automationName","Uiautomator2");
         capabilities.setCapability("platformversion", "10.0");
         capabilities.setCapability("browserName", "Chrome");
-        capabilities.setCapability("chromedriverExecutable","C:\\Users\\kamoliddin\\Downloads\\chromedriver-win64\\chromedriver-win64");;
+    
 
         URL url = URI.create("http://127.0.0.1:4723/").toURL();
 
