@@ -32,7 +32,8 @@ public class ScrollAndroidTest {
         capabilities.setCapability("deviceName","Android Emulator");
         capabilities.setCapability("appPackages","com.hmh.api");
         capabilities.setCapability("appActivity",".ApiDemos");
-       // capabilities.setCapability("app", "C:\\Users\\kamoliddin\\AppiumFirstTestAndroid\\src\\main\\apps\\uzum.apk");
+       
+        //appium URL
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
     }
 
