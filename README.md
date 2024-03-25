@@ -1,3 +1,3 @@
 # AppiumAndroidTest-Java
 # Automation test
-# UiAutomator@
+# UiAutomator2
