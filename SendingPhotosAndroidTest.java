@@ -40,7 +40,7 @@ public class SendingPhotosAndroidTest {
     @Test
     public void sendPhoto() throws IOException {
 
-        File classPath = new File(System.getProperty("C:\\Users\\kamoliddin\\AppiumFirstTestAndroid\\src\\main\\resources"));
+        File classPath = new File(System.getProperty("C:\\Users\\AppiumFirstTestAndroid\\src\\main\\resources"));
         imageDir = new File(classPath, "\\resources");
         img = new File(imageDir.getCanonicalFile(), "carbon.png");
 
